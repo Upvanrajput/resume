@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayank Rajput's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c014b6bf65.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+        <nav>
+            <img style="font-size: medium;" src="logo.jpeg" class="logo">
+            
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <div class="header-text"></div>
+         
+          
+            <i class="fas fa-solid fa-bars " onclick="openmenu()"></i>
+        </nav>
+        
+            
+            <h1>Hi, I'm <span class="pink">Upvan Rajput<br> 
+                 <p>:- Web Developer</p> <br><span id="element" class="welcome"></span></h1>
+            
+        </div>
+        
+    </div>
+</div>
+<!-- -------------------about----------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="WhatsApp Image 2024-08-23 at 14.35.11_26b7fbbc.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>A highly motivated and detail-oriented
+                     student with experience in
+                    web development, Java  and DBMS.
+                     Possesses excellent
+                    interpersonal skills including team
+                    leadership, quick learner, and decision making. Passionate about
+                    coding, listening to music  and travelling.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('certificates')">Certificates</p>
+                    <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span>Master's of Computer Applications</span><br>Teerthanker Mahaveer University, Moradabad, Uttar Pradesh, 2023-2025</li>
+                            <li><span>Bachelor's of Computer Applications</span><br>Teerthanker Mahaveer University, Moradabad, Uttar Pradesh, 2020-2023</li>
+                        <li><span>Intermediate (CBSE)</span><br>GOVT V V M I C Kundipura , Khundipura, Bijnor</li>
+                        <li><span>High School (CBSE)</span><br>Marry and Jesus convent School , Seohara, Bijnor</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="certificates">
+                    <ul>
+                       
+                        <li><span>Java</span><br>Java course completion certificate from Cetpa Infotech Pvt. Ltd. Noida</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="hobbies">
+                    <ul>
+                        <li><span>Coding</span><br>I love coding and enjoy it.</li>
+                        <li><span>Watch Movies</span><br>It is my hobby to watch science fiction movies and web series.</li>
+                        <li><span>Listen Music</span><br>I mostly listen music while travelling and enjoy.</li>
+                  
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------------------------skills-------------------- -->
+<div id="skills">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="skills-list">
+            <div>
+               
+                <img src="webd.jpeg" alt="web development" srcset="">
+            
+                <h2>Web Development</h2>
+                <p>I'm a web developer proficient in front-end , back-end technologies and Database. Creating user-friendly websites and applications. I prioritize quality, stay current with industry trends, and excel in collaborative team environments.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+             
+                <img src="technical logo.jpeg" alt=" Java ,C++ logo" srcset="">
+               <br>
+                <h2>Technical Skills</h2>
+                <p>I possess technical proficiency in both Java and C++, enabling me to develop diverse software applications and solutions. My knowledge spans object-oriented programming in Java and low-level system development in C++, allowing me to work on a wide range of projects.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                
+                <img src="teamwork logo.jpeg" alt=" Teamwork logo" srcset="">
+
+                <h2>Team Work</h2>
+              
+                <p>I'm versatile, capable of taking the lead and coordinating a team's efforts, ensuring project success as a team leader. Simultaneously, I thrive as a team member, contributing collaboratively, and supporting collective goals with my strong interpersonal and communication skills.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------------------Experience----------------------------- -->
+<div id="experience">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+       
+        
+            <div class="work">
+                <img src="work2.png" alt="Image" >
+                <div class="layer"                    
+                <h3>Amazon-Clone -</h3>
+        
+                    <h4> This is is made using HTML and CSS...Click on Github Logo to see.</h4>
+                    <a href="https://mynkrjpt.github.io/Amazon-clone.github.io/"><i class="fa-brands fa-github"></i></a>
+                
+
+                </div>
+        
+    </div>
+</div>
+
+<!-- ---------------------------contact------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa fa-envelope" style="font-size:25px;color:rgb(245, 5, 133)"></i>example@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 9997768067</p>
+                <div class="social-icons">
+                </div>
+                <a href="Upvan Rajput Resume.pdf" download class="btn btn2" ><i class="fa-solid fa-download"></i>&nbsp;&nbsp;&nbsp;Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form> 
+                <span id="msg"></span>     
+            </div>
+        </div>
+    </div>
+    
+    <div class="copyright">
+        <p>Copyright © Upvan Rajput</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemnu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemnu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemnu.style.right = "-200px";
+
+    }
+
+</script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['Welcome To My Portfolio...'],
+      typeSpeed: 50,
+    });
+  </script>
+  <script>
+    const scriptURL = 'https://docs.google.com/spreadsheets/d/1JH64CQPrJcJ_gSbGUVzU0WyHNOA71T0uG_VW2lhdzeI/edit?usp=sharinged'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
